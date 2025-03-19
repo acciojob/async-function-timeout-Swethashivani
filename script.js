@@ -2,7 +2,7 @@ document.getElementById("btn").addEventListener("click", async function () {
     const text = document.getElementById("text").value;
     const delay = document.getElementById("delay").value;
     const output = document.getElementById("output");
-outputDiv.innerHTML = "";
+output.innerHTML = "";
     // Function to introduce a delay using async/await
     function delayMessage(ms) {
         return new Promise(resolve => setTimeout(resolve, ms));
